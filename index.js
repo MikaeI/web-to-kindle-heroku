@@ -32,7 +32,7 @@ express()
     });
     return res.end(screenshot);
   })
-  .listen(PORT, () => console.log(`Listening on ${PORT}`));
+  .listen(PORT, () => console.log(`Listening intently on ${PORT}`));
 
 
 function convert(filename) {
